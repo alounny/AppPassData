@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/bg_color"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:gravity="center_vertical"
+
+        android:layout_margin="29dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:paddingEnd="18dp"
+            android:paddingStart="28dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Enter ID"
+            android:id="@+id/txtid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:paddingEnd="18dp"
+            android:paddingStart="28dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Enter Name"
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:paddingEnd="18dp"
+            android:paddingStart="28dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Enter surname"
+            android:id="@+id/txtsurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:paddingEnd="18dp"
+            android:paddingStart="28dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Enter salary"
+            android:id="@+id/txtsursalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:paddingEnd="18dp"
+            android:paddingStart="28dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Enter email"
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="OK"
+                android:id="@+id/btnok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+
+                android:text="Cancel"
+                android:id="@+id/btncancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
